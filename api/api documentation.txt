@@ -5,4 +5,27 @@ move out of the file and
 
 then create folder inside react-tailwind-project
 folder name api
--npm i express (install express for api)
+-npm i express (install express in react-tailwind project folder)
+
+calling the port 3000 from api/index.js
+import express from 'express';
+
+const app = express();
+
+app.listen(3000, () => {
+    console.log('Server is running on port 3000')
+});
+
+first change inside the package.json file type to: module.
+
+-node api/index.js
+
+install nodemon for automation restart your node 
+application when it detects any changes.
+-npm i nodemon
+
+add script inside the package.json file
+
+"scripts": {
+"dev": "nodemon api/index.js"
+},
