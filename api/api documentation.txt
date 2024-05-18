@@ -1,0 +1,8 @@
+After making the client side app
+
+move out of the file and 
+-npm i -y (to install package.json)
+
+then create folder inside react-tailwind-project
+folder name api
+-npm i express (install express for api)
