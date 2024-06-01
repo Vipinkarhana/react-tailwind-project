@@ -51,3 +51,13 @@ mongoose
 
 inside the .env file 
 MONGO = 'mongodb+srv://vipinkarhana:Vipin@1994@engineer-geek.frnekd1.mongodb.net/engineer-geek?retryWrites=true&w=majority&appName=engineer-geek'
+
+Major error solved for change the MONGO string to 
+MONGO = 'mongodb+srv://vipinkarhana2:Vipin1994@engineer-geek.frnekd1.mongodb.net/user?retryWrites=true&w=majority&appName="engineer-geek'
+
+i.e insure that username is correct and password dose not contain any special character.
+
+For safety of passoword install 
+-npm i bcryptjs
+
+
